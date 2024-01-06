@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto&display=swap');
+
+/* Universal selector */
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+/* Element or Name selector */
+label{
+    color: rgb(76, 160, 163);
+}
+/* Attribute selector */
+input[type="text"]{
+    border: 2px solid orange;
+    text-transform: capitalize;
+    width: 200px;
+    padding: 3px;
+    border-radius: 10px;
+    color: chocolate;
+}
+
+#submit:hover{
+    color: chocolate;
+    background-color: lavender;
+    width: 80px;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover,button[type="reset"]:hover{
+    color: chocolate;
+    background-color: lavender;
+    width: 80px;
+    border-radius: 5px;
+}
+
+input[type="number"]{
+    border: 2px solid;
+    color: brown;
+    border-radius: 10px;
+    width: 200px;
+    padding: 3px;
+    
+}
+textarea{
+    color: aliceblue;
+    background: red;
+}
+
+textarea:hover{
+    Color:white;
+    background-color:blue ;
+}
+
+input[type="checkbox"],[type="radio"]{
+    /* color:red;
+    background-color:yellow; */
+    accent-color: red;
+    mix-blend-mode:multiply;
+}
+
+input[type="file"]{
+    color: white;
+    background-color: blue;
+}
+ 
+input[type="date"]{
+    border: 2px solid orange;
+    text-transform: capitalize;
+    width: 200px;
+    padding: 3px;
+    border-radius: 10px;
+    color: chocolate;
+
+}
+input[type="password"]{
+
+    border: 2px solid orange;
+    width: 200px;
+    padding: 3px;
+    border-radius: 10px;
+    color: chocolate;
+
+}
+input[type="email"]{
+
+    border: 2px solid orange;
+    width: 200px;
+    padding: 3px;
+    border-radius: 10px;
+    color: chocolate;
+
+}
+
